@@ -1,0 +1,147 @@
+/* ------- Reset -------- */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------- Body -------- */
+
+body{
+    font-family: poppins;
+    font-size: 1rem;
+    color: #343434;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #167db8;
+}
+
+/* ------- Conteudo Central -------- */
+
+.container-center{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    width: 35rem;
+    margin-right: 5rem;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(220, 220, 220);
+    letter-spacing: -1rem;
+}
+
+.logo span{
+    color: #3da1db;
+    margin-right: 1.5rem;
+}
+
+.form-login{
+    margin-top: 3rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.form-login input{
+    outline: none;
+    height: 3rem;
+    width: 21.5rem;
+    border: 1px solid #cacaca;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #212121;
+    transition: .2s;
+    border-radius: 5px;
+}
+
+.esqueci-senha{
+    font-size: .8rem;
+    margin-top: -1.5rem;
+}
+
+.form-login input::placeholder{
+    color: #cccccc;
+}
+
+
+.form-login input:focus{
+    border: 1px solid #3da1db;
+}
+
+button{
+    outline: none;
+    height: 3rem;
+    width: 21.5rem;
+    border: none;
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #3da1db;
+    transition: .2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #167db8;
+}
+
+.login-social{
+    display: grid;
+    gap: 1rem;
+}
+
+.login-social .title{
+    font-size: .8rem;
+}
+
+.social-button{
+    border: 1px solid #cccccc;
+    color: #858585;
+    border-radius: 5px;
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.social-button:hover{
+    border: 1px solid #858585;
+    color: #212121;
+}
+
+.social-button span{
+    width: -webkit-fill-available;
+}
+
+.social-button img{
+    width: 1.2rem;
+}
+
+
+.right-image{
+    margin-right: -8rem;
+}
